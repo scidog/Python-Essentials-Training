@@ -6,5 +6,4 @@ But if you comment them out with a tripe quote, all is well.
 #!/usr/bin/env python3 (This is the shebang line for UNIX)
 # Copyright 2009-2017 BHG http://bw.org/
 '''
-
-print('Hello, World.')
+print()
