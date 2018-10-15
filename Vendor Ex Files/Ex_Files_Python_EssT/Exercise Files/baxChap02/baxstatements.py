@@ -9,4 +9,8 @@ But if you comment them out with a tripe quote, all is well.
 
 import platform
 
-print('This is python version {}'.format(platform.python_version()))
+version = platform.python_version()
+print()
+print('This is python version {}'.format(version))
+print('Bax says this is Python version: {}'.format(version))
+print()

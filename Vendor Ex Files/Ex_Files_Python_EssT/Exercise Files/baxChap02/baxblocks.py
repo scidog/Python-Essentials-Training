@@ -7,6 +7,12 @@ But if you comment them out with a tripe quote, all is well.
 # Copyright 2009-2017 BHG http://bw.org/
 '''
 
-import platform
+x = 82
+y = 73
+baxage = 55
 
-print('This is python version {}'.format(platform.python_version()))
+if x < y:
+    print('x < y: x is {} and y is {}'.format(x, y))
+else:
+    print('Bax is {}'.format(baxage))
+    print('Yup, Bax is', baxage)
