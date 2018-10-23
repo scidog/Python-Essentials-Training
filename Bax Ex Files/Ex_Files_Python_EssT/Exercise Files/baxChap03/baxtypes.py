@@ -74,7 +74,7 @@ for i in baxlist:
 print()
 
 
-baxtuple = (1,2,3,4,5) #() = list. Lists are immutable
+baxtuple = (1,2,3,4,5) #() = tuple. Tuples are immutable
 #baxtuple[2]=777 #gives error as you cannot change a tuple
 for i in baxtuple:
             print('baxtuple is {}'.format(i))
